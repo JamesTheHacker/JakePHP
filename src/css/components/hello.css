@@ -1,0 +1,36 @@
+/*
+ * The code in this file is created to test PostCSS plugins
+ */
+
+$default-font-size: 32px;
+
+body {
+  background: #f7f7f7;
+  text-align: center;
+  padding-top: 100px;
+  padding: 100px 20px 0 20px;
+
+  h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: $default-font-size;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 0 0 rgba(255, 255, 255, 1);
+    margin-bottom: 0;
+
+  }
+
+  p {
+    font-family: sans-serif;
+    font-size: $default-font-size - 10px;
+    letter-spacing: 2px;
+    color: rgba(1, 1, 1, 0.5);
+    text-shadow: 2px 0 0 rgb(255, 255, 255);
+  }
+
+  a {
+    color: orange;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+}
